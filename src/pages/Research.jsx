@@ -7,6 +7,15 @@ import PublicationItem from "../components/PublicationItem";
 const publications = [
   {
     title:
+      "Multicomponent Magnetic Domain Walls in Rhombohedral Graphene",
+    authors: "M. Das, N. Wei, C. Huang",
+    venue: "arXiv:2608.26104",
+    year: 2026,
+    type: "preprint",
+    doi: "10.48550/arXiv.2608.26104",
+  },
+  {
+    title:
       "Momentum-Space AC Josephson Effect and Intervalley Coherence in Multilayer Graphene",
     authors: "M. Das, C. Huang",
     venue: "Nature Communication",
@@ -44,7 +53,29 @@ const publications = [
 ];
 
 const seminars = [
-    {
+  {
+    title:
+      "Multicomponent Magnetic Domain Walls in Rhombohedral Graphene",
+    event: "Gordon Research Conference 2026",
+    month: "Jun",
+    day: "22–23",
+    year: "2026",
+    location: "Southern New Hampshire University, USA",
+    recording: null,
+    type: "Poster",
+  },
+  {
+    title:
+      "Momentum-Space AC Josephson Effect and Intervalley Coherence in Multilayer Graphene",
+    event: "Gordon Research Seminar 2026",
+    month: "Jun",
+    day: "20",
+    year: "2026",
+    location: "Southern New Hampshire University, USA",
+    recording: null,
+    type: "Poster",
+  },
+  {
     title:
       "Microscopic Theory of Magnetic SU(4) Spin-Valley Domain Walls in Rhombohedral Multilayer Graphene",
     event: "APS Global Physics Summit 2026",
@@ -123,7 +154,7 @@ const seminars = [
   },
 ];
 
-const yearFilters = ["All", "2025", "2024"];
+const yearFilters = ["All", "2026", "2025", "2024"];
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
